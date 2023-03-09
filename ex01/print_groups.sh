@@ -1,0 +1,1 @@
+id -Gn $FT_USER | awk '{ gsub(" ", ",", $0); printf("%s", $0); }'

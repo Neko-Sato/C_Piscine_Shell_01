@@ -1,0 +1,1 @@
+find . -type f -or -type d | wc -l | sed -e 's/[^0-9]//g'
